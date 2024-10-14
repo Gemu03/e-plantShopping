@@ -97,8 +97,8 @@ body {
     height: 200px; /* Adjust height for better consistency */
 }
 
-.product-button {
-    background-color: #e74c3c;
+.added {
+    background-color: #5c5c5c !important;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -179,7 +179,7 @@ body {
     /* background-color: yellow; */
 }
 .plant_heading{
-    width: 400px;
+    width: 100%;
     text-align: center;
     margin: 20px;
     border: 1px solid rgb(5, 4, 4);
@@ -250,3 +250,9 @@ body {
         text-align: center; /* Align text to the center */
       }
   }
+
+div.cart-container{
+    & > span.item-count{
+        position: absolute;
+    }
+}
